@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    background-color: rgb(242, 255, 242);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+nav {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-end;
+    background-color: white;
+}
+    a {
+        color: black;
+        font-style: normal;
+        text-decoration-line: none;
+        font-family: Arial, Helvetica, sans-serif, sans-serif;
+        font-size: 18px;
+        
+    }
+
+
+figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    object-fit: cover;
+}
+
+.centeredHeroText {
+    position: absolute;
+    color: aliceblue;
+  }
+  
+.hero {
+    object-fit: cover;
+}
+
+
+img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    object-fit: cover;
+}
+
+
+.whatsOnSpotify {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.millionsOfSongs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.HdMusic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.streamEverywhere {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    font-size: 64px;
+    Color: white;
+    Text-Align: center;
+    font-family: Helvetica, sans-serif, sans-serif;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 28px;
+    Color: rgb(173, 173, 173);
+    Text-Align: center;
+    font-family: Helvetica thin, sans-serif, sans-serif;
+    font-weight: lighter;
+  }
+ 
+  h3 {
+    font-size: 24px;
+    Color: rgb(0, 163, 0);
+    Text-Align: center;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+  }
+
+  h4 {
+    font-size: 14px;
+    Color: rgb(189, 189, 189);
+    Text-Align: center;
+    Text-Transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+  }
+
+
+    p {
+        font-size: 16px;
+        Color: grey;
+        text-align: left;
+        font-family: Helvetica thin, sans-serif, sans-serif;
+        line-height: 1.7;
+    }
+
+    .h3underline {
+        font-size: 24px;
+        Color: Black;
+        Text-Align: center;
+        font-family: Arial, Helvetica, sans-serif, sans-serif;
+        text-decoration: underline green 3px;
+      }
