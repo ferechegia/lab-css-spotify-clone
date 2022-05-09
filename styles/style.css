@@ -8,7 +8,7 @@ White: #FFF
 */
 
 body {
-    background-color: rgb(242, 255, 242);
+    background-color: rgb(255, 255, 255);
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -93,6 +93,22 @@ img {
     padding: 20px;
 }
 
+
+
+.greenSection {
+    background-color: rgb(39, 156, 93);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+
+
+
+
+
 ul {
     display: flex;
     justify-content: space-between;
@@ -108,7 +124,7 @@ ul {
   
   h2 {
     font-size: 28px;
-    Color: rgb(173, 173, 173);
+    Color: rgb(255, 255, 255);
     Text-Align: center;
     font-family: Helvetica thin, sans-serif, sans-serif;
     font-weight: lighter;
@@ -133,6 +149,14 @@ ul {
     p {
         font-size: 16px;
         Color: grey;
+        text-align: left;
+        font-family: Helvetica thin, sans-serif, sans-serif;
+        line-height: 1.7;
+    }
+
+    .greenBgText {
+        font-size: 16px;
+        Color: rgb(255, 255, 255);
         text-align: left;
         font-family: Helvetica thin, sans-serif, sans-serif;
         line-height: 1.7;
